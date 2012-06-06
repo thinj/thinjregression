@@ -1,1 +1,6 @@
-Hello git
+Build all classes and place the output in a bin - dir.
+Run:
+
+thinj -c bin -o alltests thinj.regression.AllTests
+
+This will generate an executable able to run all tests in the suite
