@@ -27,6 +27,7 @@ public class AllTests {
 		System.out.println("Test 4");
 		InstanceSubclassing.main();
 
+		
 		System.out.println("Test 5");
 		InstanceMethods.main();
 
