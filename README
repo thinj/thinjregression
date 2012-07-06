@@ -1,6 +1,13 @@
-Build all classes and place the output in a bin - dir.
-Run:
+Do this to build a native executable:
 
-thinj -c bin -o alltests thinj.regression.AllTests
+This first step  produces 'alltests.c/h/trace':
+./build.sh
 
-This will generate an executable able to run all tests in the suite
+This second step builds a native executable using the make command:
+Copy the files alltests.* to src/example
+cd src/example
+make clean; make
+
+You are now all set to run the regression test:
+
+./alltests

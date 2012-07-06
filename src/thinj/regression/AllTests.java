@@ -15,7 +15,6 @@ import thinj.regression.interfaces.AnInterfaceImpl;
 public class AllTests {
 	public static void main() {
 
-		System.out.println("Test 1");
 		StaticInstanceAndMethod.main();
 
 		System.out.println("Test 2");
