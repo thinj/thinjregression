@@ -1,6 +1,5 @@
 package thinj.regression;
 
-
 public class DivMod {
 	private static int tusind = 1000;
 

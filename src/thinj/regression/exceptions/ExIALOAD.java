@@ -402,32 +402,32 @@ public class ExIALOAD {
 	}
 
 	public static void main() {
-		for (int i = 0; i < 100; i++) {
-			try {
-				iaload();
-				aaload();
-				baload();
-				caload();
-				iastore();
-				aastore();
-				bastore();
-				castore();
-				idiv();
-				irem();
-				getfield();
-				putfield();
-				invokespecial();
-				invokevirtual();
-				invokeinterface();
-				test_new();
-				newarray();
-				anewarray();
-				arraylength();
-				athrow();
-				checkcast();
-			} catch (Throwable e) {
-				System.out.println("Throwable xx caught: " + e);
-			}
+		// for (int i = 0; i < 100; i++) {
+		try {
+			iaload();
+			aaload();
+			baload();
+			caload();
+			iastore();
+			aastore();
+			bastore();
+			castore();
+			idiv();
+			irem();
+			getfield();
+			putfield();
+			invokespecial();
+			invokevirtual();
+			invokeinterface();
+			test_new();
+			newarray();
+			anewarray();
+			arraylength();
+			athrow();
+			checkcast();
+		} catch (Throwable e) {
+			System.out.println("Throwable xx caught: " + e);
 		}
 	}
+	// }
 }
